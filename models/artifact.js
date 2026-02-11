@@ -23,7 +23,7 @@ const artifactSchema = new mongoose.Schema(
       ref: "User",
       required: true
     },
-
+    file: String,
     media: {
       type: String
     }
