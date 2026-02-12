@@ -1,3 +1,4 @@
+
 import { v2 as cloudinary } from "cloudinary";
 
 cloudinary.config({
@@ -10,3 +11,6 @@ console.log("keys",process.env.CLOUDINARY_CLOUD_NAME,
     process.env.CLOUDINARY_API_SECRET
 )
 export default cloudinary;
+
+
+
